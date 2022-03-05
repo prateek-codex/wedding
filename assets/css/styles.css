@@ -11383,8 +11383,10 @@ header.masthead .bg-circle-4 {
 }
 
 .card {
-    margin: 2rem; 
-    background-color:dimgray;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    margin: 1em;
+    background-color:darkviolet;
 }
 
 .card-title {
