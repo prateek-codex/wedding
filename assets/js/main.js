@@ -1,6 +1,6 @@
 
 
-var weddingDate = new Date('04-22-2022');
+var weddingDate = new Date("2022-04-22T00:00:00");
 
 function initCountDown() {
 

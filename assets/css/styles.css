@@ -4540,11 +4540,11 @@ textarea.form-control-lg {
 .card > .card-header + .list-group,
 .card > .list-group + .card-footer {
   border-top: 0;
-}
+} 
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  /* padding: 1rem 1rem; */
 }
 
 .card-title {
@@ -11320,7 +11320,7 @@ html {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: calc(7rem + 10px);
   padding-bottom: 7rem;
   background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
   background-repeat: no-repeat;
@@ -11371,7 +11371,7 @@ header.masthead .bg-circle-4 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(4rem + 55px);
+    padding-top: calc(4rem + 76px);
     padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {
@@ -11385,10 +11385,31 @@ header.masthead .bg-circle-4 {
 .card {
     /* margin-left: 2rem;
     margin-right: 2rem; */
-    margin: 1em;
+    margin: 1em 1em 1em 0em;
     background-color:darkviolet;
 }
 
 .card-title {
     font-size: 4rem;
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin: 0.5em 4em 0.5em 4em;
+    text-align: center;
+  } 
+
+  header.masthead {
+    padding-top: calc(4rem + 30px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+  .mt-5 {
+    margin-top: 1rem !important;
+  }
 }
