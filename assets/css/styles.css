@@ -11370,6 +11370,12 @@ header.masthead .bg-circle-4 {
 }
 
 @media (min-width: 992px) {
+  .large-pad-top {
+    margin-top: 2rem;
+  }
+  .iframe-pad {
+    padding: 3rem !important;
+  }
   header.masthead {
     padding-top: calc(4rem + 76px);
     padding-bottom: 10rem;
@@ -11398,6 +11404,9 @@ header.masthead .bg-circle-4 {
     margin: 0.5em 4em 0.5em 4em;
     text-align: center;
   } 
+  .p-5 {
+    padding-bottom: 1rem!important;
+  }
 
   header.masthead {
     padding-top: calc(4rem + 30px);
