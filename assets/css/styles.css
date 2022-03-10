@@ -11423,3 +11423,8 @@ header.masthead .bg-circle-4 {
     margin-top: 1rem !important;
   }
 }
+
+.container {
+  background-repeat: no-repeat;
+  background-size:cover;
+}
