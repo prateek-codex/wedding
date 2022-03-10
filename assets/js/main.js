@@ -27,11 +27,13 @@ setInterval(function() {
 
 setTimeout(function() {
     var audio = new Audio('assets/music/wedding_songs.mp3');
+    audio.loop = true;
     audio.play();
 }, 200)
 function playSongs() {
     if(!window.isPlayingWeddingSong) {
         var audio = new Audio('assets/music/wedding_songs.mp3');
+        audio.loop = true;
         audio.play();
         window.isPlayingWeddingSong = true;
     }
