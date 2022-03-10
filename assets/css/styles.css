@@ -11411,6 +11411,7 @@ header.masthead .bg-circle-4 {
   header.masthead {
     padding-top: calc(4rem + 30px);
     padding-bottom: 10rem;
+    margin-top: 1em;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 4rem;

@@ -16,4 +16,13 @@ function initCountDown() {
     setTimeout(initCountDown, 1000);
 }
 
+setInterval(function() {
+    if(window.innerHeight > window.innerWidth){
+        document.getElementById("landscape-msg").style.display = "block";
+    }
+    else {
+        document.getElementById("landscape-msg").style.display = "none";
+    }
+}, 500);
+
 initCountDown();
