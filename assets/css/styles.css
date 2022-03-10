@@ -11320,7 +11320,7 @@ html {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 10px);
+  padding-top: calc(3rem + 10px);
   padding-bottom: 7rem;
   background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
   background-repeat: no-repeat;
@@ -11377,7 +11377,7 @@ header.masthead .bg-circle-4 {
     padding: 3rem !important;
   }
   header.masthead {
-    padding-top: calc(4rem + 76px);
+    padding-top: calc(76px);
     padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {

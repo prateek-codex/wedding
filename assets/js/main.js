@@ -25,4 +25,16 @@ setInterval(function() {
     }
 }, 500);
 
+setTimeout(function() {
+    var audio = new Audio('assets/music/wedding_songs.mp3');
+    audio.play();
+}, 200)
+function playSongs() {
+    if(!window.isPlayingWeddingSong) {
+        var audio = new Audio('assets/music/wedding_songs.mp3');
+        audio.play();
+        window.isPlayingWeddingSong = true;
+    }
+}
+
 initCountDown();
