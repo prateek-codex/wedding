@@ -11409,7 +11409,7 @@ header.masthead .bg-circle-4 {
   }
 
   header.masthead {
-    padding-top: calc(4rem + 30px);
+    padding-top: calc(1rem + 30px);
     padding-bottom: 10rem;
     margin-top: 1em;
   }
@@ -11428,3 +11428,14 @@ header.masthead .bg-circle-4 {
   background-repeat: no-repeat;
   background-size:cover;
 }
+
+
+@media (max-height: 400px) {
+  header.masthead {
+    padding-top: calc(30px);
+  }
+  .mt-5 {
+    margin-top: 1rem !important;
+  }
+}
+
