@@ -25,17 +25,23 @@ setInterval(function() {
     }
 }, 500);
 
-setTimeout(function() {
-    var audio = new Audio('assets/music/wedding_songs.mp3');
-    audio.loop = true;
-    audio.play();
-}, 200)
+function initSong() {
+    if(!window.weddingSong) {
+        playSongs();
+    }
+}
+
 function playSongs() {
-    if(!window.isPlayingWeddingSong) {
-        var audio = new Audio('assets/music/wedding_songs.mp3');
-        audio.loop = true;
-        audio.play();
-        window.isPlayingWeddingSong = true;
+    if(!window.weddingSong) {
+        window.weddingSong = new Audio('assets/music/wedding_songs.mp3');
+        window.weddingSong.loop = true;
+        window.weddingSong.play();
+    }
+    
+    else {
+        if(window.weddingSong.paused) 
+            window.weddingSong.play();
+        else window.weddingSong.pause();
     }
 }
 
